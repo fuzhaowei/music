@@ -1,4 +1,4 @@
-package fzw.yuandi.music;
+package fzw.yuandi.music.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,9 @@ import android.widget.TextView;
 import java.util.List;
 
 import fzw.yuandi.music.MusicList.SongBin;
+import fzw.yuandi.music.R;
+import fzw.yuandi.music.Tool.HTTPVolley;
+import fzw.yuandi.music.activity.audition.AuditionActivity;
 
 /**
  * Created by fuzhaowei on 2016/11/17.

@@ -1,4 +1,4 @@
-package fzw.yuandi.music;
+package fzw.yuandi.music.Tool;
 
 import android.media.AudioManager;
 import android.media.MediaPlayer;

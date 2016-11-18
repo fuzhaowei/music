@@ -1,4 +1,4 @@
-package fzw.yuandi.music;
+package fzw.yuandi.music.Tool;
 
 import java.io.BufferedReader;
 import java.io.IOException;

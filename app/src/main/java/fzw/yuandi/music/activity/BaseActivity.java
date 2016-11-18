@@ -1,4 +1,4 @@
-package fzw.yuandi.music;
+package fzw.yuandi.music.activity;
 
 import android.content.Intent;
 import android.os.Build;
@@ -14,6 +14,8 @@ import android.widget.Toast;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import fzw.yuandi.music.R;
 
 /**
  * 基类Activity

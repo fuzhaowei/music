@@ -1,8 +1,7 @@
-package fzw.yuandi.music;
+package fzw.yuandi.music.activity.main;
 
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
@@ -14,7 +13,13 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import fzw.yuandi.music.activity.BaseActivity;
+import fzw.yuandi.music.adapter.MusicAdapter;
 import fzw.yuandi.music.MusicList.SongBin;
+import fzw.yuandi.music.activity.MyApplication;
+import fzw.yuandi.music.R;
+import fzw.yuandi.music.Tool.HTTPVolley;
+import fzw.yuandi.music.Tool.mHttp;
 
 /**
  * 搜索列表

@@ -1,7 +1,6 @@
-package fzw.yuandi.music;
+package fzw.yuandi.music.activity.audition;
 
 import android.graphics.Bitmap;
-import android.media.Image;
 import android.os.Handler;
 import android.os.Message;
 import android.view.View;
@@ -17,7 +16,13 @@ import com.android.volley.Response;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import fzw.yuandi.music.activity.MyApplication;
 import fzw.yuandi.music.PlaySong.SongDetails;
+import fzw.yuandi.music.Tool.Play_Song;
+import fzw.yuandi.music.R;
+import fzw.yuandi.music.Tool.HTTPVolley;
+import fzw.yuandi.music.Tool.ImageUtil;
+import fzw.yuandi.music.activity.BaseActivity;
 
 /**
  * 试听列表

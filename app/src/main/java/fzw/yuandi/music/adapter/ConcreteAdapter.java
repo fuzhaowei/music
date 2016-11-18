@@ -1,4 +1,4 @@
-package fzw.yuandi.music;
+package fzw.yuandi.music.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

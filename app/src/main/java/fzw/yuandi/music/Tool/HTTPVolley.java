@@ -1,30 +1,27 @@
-package fzw.yuandi.music;
+package fzw.yuandi.music.Tool;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Handler;
-import android.util.Log;
 import android.view.Gravity;
-import android.webkit.DownloadListener;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.RequestFuture;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 import com.sunshine.view.library.data.ResponseInfo;
 import com.sunshine.view.library.download.Downloader;
 
 import fzw.yuandi.music.MusicList.SongResultBin;
 import fzw.yuandi.music.PlaySong.SongDetails;
+import fzw.yuandi.music.activity.audition.AuditionActivity;
+import fzw.yuandi.music.activity.main.MainActivity;
 
 /**
  * 网络请求类
