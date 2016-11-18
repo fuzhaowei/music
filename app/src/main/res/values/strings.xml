@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Music</string>
+
+    <string name="search_song">搜索</string>
+</resources>
